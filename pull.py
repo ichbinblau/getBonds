@@ -11,8 +11,8 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 url = "http://dcfm.eastmoney.com/em_mutisvcexpandinterface/api/js/get?type=KZZ_LB&token=70f12f2f4f091e459a279469fe49eca5"
-http_proxy  = "http://proxy-shm.intel.com:911"
-https_proxy = "https://proxy-shm.intel.com:911"
+http_proxy  = none #"http://proxy-shm.intel.com:911"
+https_proxy = none #"https://proxy-shm.intel.com:911"
 
 proxyDict = { 
               "http"  : http_proxy, 
@@ -33,7 +33,7 @@ for r in r.json():
 
 host_server = 'smtp.qq.com'
 sender_qq = '42397657'
-pwd = 'Cde3$rfv'
+pwd = ''
 sender_qq_mail = '42397657@qq.com'
 receiver = 'ichbinblau.3@foxmail.com'
 mail_content = output
